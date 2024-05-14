@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/home.css">
+    <link rel="stylesheet" href="/bootstrap.min.css">
+    <link rel="stylesheet" href="/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container" style="margin-top:50px;">
+        <form id="addForm" action="/addProduct" method="post">
+            <div class="form-group mt-4">
+                <label for="name" class="text-dark">Model</label>
+                <input class="form-control mb-2" type="text" name="model" placeholder="Enter product model" required>
+            </div>
+            <div class="form-group">
+                <label for="name" class="text-dark">Quantity</label>
+                <input class="form-control mb-2" type="number" name="quantity" placeholder="Enter product's quantity" required>
+            </div>
+            <button type="submit" class="btn btn-success me-1 mb-3">Add</button>
+        </form>
+    </div>
+    
+</body>
+</html>
